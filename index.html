@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar">
+      <h1><a href="#">Naveen Madugula</a></h1>
+      <nav>
+        <a href="#home" class="hovered">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+    </div>
+
+  </header>
+
+  <section id="home">
+    <div class="person-info flex-row">
+      <div class="person-image"></div>
+      <div class="content flex-col">
+        <div class="sentence" id="sentence">
+          <span class="name">Naveen</span> Madugula
+        </div>
+        <div>
+          <p>A PASSIONATE LEARNER</p>
+        </div>
+        <div class="flex-row">
+        <button><a href="#projects">My Works</a></button>
+        <button><a href="#contact">Contact Me</a></button>
+        </div>
+      </div>
+    </div>   
+    <div class="randomcontent flex-row">
+      <div class="flex-col justify">
+      <div class="hidden">Nothings much to say</div>
+      <div class="hidden">Justing playing with you</div>
+      </div>
+      <div class="flex-col justify">
+      <div class="hidden">Kuch Bhi Kya yaar</div>
+      <div class="hidden">Yeh kay kar rahi ho thu</div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="projects">
+    <div class="projects">
+      <h1 class="headings">Recent Projects</h1>
+      <div class="projects-content">
+        <h2>Short Form Videos</h2>
+        <div class="overflow-scroll flex-row shortform">
+          <div class="project-item flex-row">
+            <iframe src="https://drive.google.com/file/d/1YPF85_FkFcKPv0MwGw__sdZP514TlUID/preview" width="360" height="640"  allow="autoplay"></iframe>
+          </div>
+          <div class="project-item flex-row">
+            <iframe src="https://drive.google.com/file/d/10K7x5p7rrA1laKGdT-eR8vIvb4cx2za5/preview" width="360" height="640" allow="autoplay"></iframe>
+          </div>
+          <div class="project-item flex-row">
+            <iframe src="https://drive.google.com/file/d/1FxRzx__mJgwjBmFVoCq0LlRHFPV4p87E/preview" width="360" height="640" allow="autoplay"></iframe>
+          </div>
+          <div class="project-item flex-row">
+              <iframe src="https://drive.google.com/file/d/1dj9Z6pQsbn_OQR35PxM7xo0xEDs9Xx-6/preview" width="360" height="640" allow="autoplay"></iframe>
+          </div>
+        </div>
+
+        <h2>Long Form Videos</h2>
+        <div class="grid-row longform overflow-scroll">
+          <div class="project-item flex-row">
+            <iframe src="https://drive.google.com/file/d/1Ust044qHLSaoT55VpECcSGoCNHoH26Dq/preview" width="640" height="360" allow="autoplay"></iframe>
+          </div>
+          <div class="project-item flex-row">
+            <iframe src="https://drive.google.com/file/d/1vlKgOxVMOMJAdZe6K5YMSz_URvszqZkL/preview" width="640" height="360" allow="autoplay"></iframe>
+            
+          </div>
+        </div>
+      </div>
+      <button><a href="https://drive.google.com/drive/folders/1wcW5Lb5ki21KYbCF3PrWHTHOWMjDhKe3?usp=drive_link" target="_blank">View All Projects</a></button>
+    </div>
+  </section>
+  
+  <section id="contact">    
+      <div class="contact-me flex-col">
+        <h1 class="headings">Get in Touch</h1>
+        <p>If you want to discuss about anything, or if you just want to say hi, please feel free to contact me through any of these</p>
+        <div>
+          <form method="Post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Username" required><br>
+  
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Password" required><br>
+  
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm-password" required><br>
+  
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email" required><br>
+  
+            <label for="mobile">Mobile Number:</label>
+            <input type="text" id="mobile" name="mobile" placeholder="Mobile" required><br>
+  
+            <input type="submit"  class="submit" value="Say Hello">
+          </form>
+        </div>
+        <div class="contact-content flex-row">
+            <div class="contact-details flex-row">
+                <div class="contact-icon">
+                  <a href="">
+                  <img src="./images/email.jpeg" alt="">
+                </a>
+                </div>
+                <div class="contact-icon">
+                  <a href="">
+                  <img src="./images/linkedin.jpg" alt="">
+                </a>
+                </div>
+                <div class="contact-icon">
+                  <a href="">
+                  <img src="./images/instagram.png" class="instalogo" alt="">
+                </a>
+                </div>
+                <div class="contact-icon">
+                  <a href="">
+                  <img src="./images/twitter.png" alt="">
+                </a>
+                </div>
+            </div>
+        </div>
+      </div>
+  </section>
+
+  <footer>
+    <p>Making with love and effort</p>
+  </footer>
+
+  <script src="./js/app.js"></script>
+  <script src="./js/validation.js"></script>
+  
+
+</body>
+
+</html>
