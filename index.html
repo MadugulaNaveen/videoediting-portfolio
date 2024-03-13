@@ -32,7 +32,7 @@
         <div>
           <p>A PASSIONATE LEARNER</p>
         </div>
-        <div class="flex-row">
+        <div class="flex-row center">
         <button><a href="#projects">My Works</a></button>
         <button><a href="#contact">Contact Me</a></button>
         </div>
@@ -57,26 +57,26 @@
       <div class="projects-content">
         <h2>Short Form Videos</h2>
         <div class="overflow-scroll flex-row shortform">
-          <div class="project-item flex-row">
+          <div class="project-item video flex-row">
             <iframe src="https://drive.google.com/file/d/1YPF85_FkFcKPv0MwGw__sdZP514TlUID/preview" width="360" height="640"  allow="autoplay"></iframe>
           </div>
-          <div class="project-item flex-row">
+          <div class="project-item video flex-row">
             <iframe src="https://drive.google.com/file/d/10K7x5p7rrA1laKGdT-eR8vIvb4cx2za5/preview" width="360" height="640" allow="autoplay"></iframe>
           </div>
-          <div class="project-item flex-row">
+          <div class="project-item video flex-row">
             <iframe src="https://drive.google.com/file/d/1FxRzx__mJgwjBmFVoCq0LlRHFPV4p87E/preview" width="360" height="640" allow="autoplay"></iframe>
           </div>
-          <div class="project-item flex-row">
+          <div class="project-item video flex-row">
               <iframe src="https://drive.google.com/file/d/1dj9Z6pQsbn_OQR35PxM7xo0xEDs9Xx-6/preview" width="360" height="640" allow="autoplay"></iframe>
           </div>
         </div>
 
         <h2>Long Form Videos</h2>
         <div class="grid-row longform overflow-scroll">
-          <div class="project-item flex-row">
+          <div class="project-item video flex-row">
             <iframe src="https://drive.google.com/file/d/1Ust044qHLSaoT55VpECcSGoCNHoH26Dq/preview" width="640" height="360" allow="autoplay"></iframe>
           </div>
-          <div class="project-item flex-row">
+          <div class="project-item video flex-row">
             <iframe src="https://drive.google.com/file/d/1vlKgOxVMOMJAdZe6K5YMSz_URvszqZkL/preview" width="640" height="360" allow="autoplay"></iframe>
             
           </div>
@@ -87,59 +87,56 @@
   </section>
   
   <section id="contact">    
-      <div class="contact-me flex-col">
-        <h1 class="headings">Get in Touch</h1>
-        <p>If you want to discuss about anything, or if you just want to say hi, please feel free to contact me through any of these</p>
-        <div>
-          <form method="Post">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Username" required><br>
-  
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" placeholder="Password" required><br>
-  
-            <label for="confirm-password">Confirm Password:</label>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm-password" required><br>
-  
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Email" required><br>
-  
-            <label for="mobile">Mobile Number:</label>
-            <input type="text" id="mobile" name="mobile" placeholder="Mobile" required><br>
-  
-            <input type="submit"  class="submit" value="Say Hello">
-          </form>
-        </div>
-        <div class="contact-content flex-row">
-            <div class="contact-details flex-row">
-                <div class="contact-icon">
-                  <a href="">
-                  <img src="./images/email.jpeg" alt="">
-                </a>
-                </div>
-                <div class="contact-icon">
-                  <a href="">
-                  <img src="./images/linkedin.jpg" alt="">
-                </a>
-                </div>
-                <div class="contact-icon">
-                  <a href="">
-                  <img src="./images/instagram.png" class="instalogo" alt="">
-                </a>
-                </div>
-                <div class="contact-icon">
-                  <a href="">
-                  <img src="./images/twitter.png" alt="">
-                </a>
-                </div>
+    <div class="contact-me flex-col">
+      <h1 class="headings">Let's Connect</h1>
+      <div class="contact-content flex-col">
+        <div class="contact-details flex-row">
+            <div class="contact-icon">
+              <a href="https://www.linkedin.com/in/naveen-madugula-29a623256/" target="_blank">
+              <img src="./images/linkedin.jpg" alt="">
+            </a>
+            </div>
+            <div class="contact-icon">
+              <a href="https://www.instagram.com/naveen_madugula_07/" target="_blank">
+              <img src="./images/instagram.png" class="instalogo" alt="">
+            </a>
+            </div>
+            <div class="contact-icon">
+              <a href="https://twitter.com/mad35611" target="_blank">
+              <img src="./images/twitter.png" alt="">
+            </a>
             </div>
         </div>
+        <div>
+          <p>Or <br>
+            Send me a message</p>
+        </div>
+    </div>
+
+      <div>
+        <form method="Post">
+          <label for="username">Name:</label>
+          <input type="text" id="username" name="username" placeholder="Name" required><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Email" required><br>
+
+          <label for="mobile">Mobile Number:</label>
+          <input type="text" id="mobile" name="mobile" placeholder="Mobile" required><br>
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" placeholder="Message" required></textarea><br>
+
+          <input type="submit"  class="submit" value="Send Message"><br>
+        </form>
       </div>
+      
+    </div>
   </section>
 
-  <footer>
-    <p>Making with love and effort</p>
-  </footer>
+<footer>
+  <p>Made with love by Naveen</p>
+</footer>
 
   <script src="./js/app.js"></script>
   <script src="./js/validation.js"></script>
