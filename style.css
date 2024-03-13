@@ -304,11 +304,13 @@ input[type="submit"] {
 
 .shortform iframe{
   aspect-ratio: 9 / 16;
+  border-radius: 10px;
 }
 
 .longform iframe{
   width: 100%;
   aspect-ratio: 16 / 9;
+  border-radius: 10px;
 }
 
 
@@ -362,7 +364,7 @@ input[type="submit"] {
   .longform iframe {
     max-width: 100%;
     aspect-ratio: 16 / 9;
-}
+  }
   .navbar a {
     margin: 0.5rem;
   }
