@@ -176,7 +176,7 @@ button {
   color: white;
 }
 
-nav a:hover, button:hover,.hovered,button a:hover{
+nav a:hover, button:hover,.hovered,button a:hover,.email a:hover{
   color:black;
   text-shadow: 1px 1px 20px white;
   background-color: white;
@@ -355,6 +355,14 @@ iframe{
   height: 100vh;
 }
 
+#contact .headings{
+  letter-spacing: 0.2em;
+}
+.email a{
+  color: rgb(255, 252, 71);
+  letter-spacing: normal;
+  font-size: 20px;
+}
 
 @media only screen and (max-width: 750px) {
   /* .person-image{
@@ -379,7 +387,7 @@ iframe{
   .navbar a {
     margin: 0.2rem 0rem 0rem 0rem;
   }
-  .navbar a:hover {
+  .navbar a:hover{
     color: black;
     text-shadow: 1px 1px 20px white;
     background-color: white;
